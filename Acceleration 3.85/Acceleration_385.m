@@ -23,6 +23,9 @@ plot([0, 5], [100, 100], ...
 plot([3.85, 3.85], [0, 100], ...
     '', 'LineWidth', 1.5, 'Color', [0.75, 0.75, 0.75]);
 
+title('Simulated Acceleration');
+xlabel('Time (s)');
+ylabel('Distance (ft)');
 legend('Clutching Phase', 'Low Ratio', 'Shift', '100 ft', '3.85 s', ...
     'Location', 'northwest')
 

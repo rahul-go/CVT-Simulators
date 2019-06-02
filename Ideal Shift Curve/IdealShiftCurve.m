@@ -5,8 +5,8 @@ close all;
 clc;
 
 % Engagement speed (TUNE)
-engagement_speed = 3000;
-plot_title = 'Oregon Shift Curve';
+engagement_speed = 3400;
+plot_title = 'Speed Diagram';
 
 % Car Specs
 CVT_L = 3.85;                           % CVT low ratio
